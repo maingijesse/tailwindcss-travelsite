@@ -1,0 +1,49 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+.better-to-buy:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 115%;
+  top: 0;
+  -webkit-transform: skewY(-12deg);
+  transform: skewY(-12deg);
+  background: #f6f9fc;
+}
+
+.heading-container {
+  height: 65vh;
+  top: -50px;
+}
+
+.hero img {
+  height: 65vh;
+}
+
+.quote-form {
+  margin-top: -45px;
+  opacity: 0.99;
+  z-index: 10;
+}
+
+.quotes {
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+}
+
+.testimonial {
+  z-index: 2;
+}
+
+.travel-tickets {
+  right: 0;
+  top: -200px;
+  transform: rotate(-15deg);
+  z-index: -1;
+}
